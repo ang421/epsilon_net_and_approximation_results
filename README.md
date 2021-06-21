@@ -3,7 +3,7 @@
 We have one folder each for the results from our experiments in estimating the size **m** needed for (1) **epsilon net** and (2) **epsilon approximation**.
 
 Under each result directory, we have the following common directories:
-1. **kurtosis** - We measured the **kurtosis** values for reasonCancel changesable **m** sizes to see whether the **kurtosis** is indeed _o(n)_ as desired.
+1. **kurtosis** - We measured the **kurtosis** values for reasonsable **m** sizes to see whether the **kurtosis** is indeed _o(n)_ as desired.
 2. **trials** - We observed how the **m** value changes depending on how many **trials** we used to calculate the required statistics.
 3. **k** - We inspected whether the **k** value (tolerance w.r.t. how many sd's from mean) used will impact the estimated **m** value.
 
